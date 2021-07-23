@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8888/produtos'
+  baseURL: 'https://raw.githubusercontent.com/XaVeZ-cmd/desafioDoisGamaAcademy/master/server.json'
 })
 
 export default api;
